@@ -1,0 +1,47 @@
+body {
+	background: linear-gradient(45deg, #798BD9, #8799E7) fixed;
+	color: #fc0;
+	text-decoration: none;
+	}
+
+
+a {
+	text-decoration: none;
+	color: #333;
+	padding: 10px;	
+	}
+
+.name {
+	font-family: Ubuntu, Verdana, Helvetica, Arial, sans-serif;
+	font-size: 35px;
+	color: #222222;
+	text-align: center;
+	line-height: 300px;
+
+}
+
+.white {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10em;
+	background: linear-gradient(#DBDBDB, #CED0D5) fixed;
+	height: 30em;
+	width: 40em;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	box-shadow: 0px 0px 10px 3px #5641C7;
+	z-index: 1000;
+	text-decoration: none;
+}
+
+.links {
+	text-align: center;
+	text-decoration: none;
+	font-family: Ubuntu;
+	font-size: 25px;
+	color: #333;
+
+}
+
