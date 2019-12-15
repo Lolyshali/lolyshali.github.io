@@ -1,0 +1,82 @@
+@font-face {
+    font-family: font; /* Гарнитура шрифта */
+    src: url(fonts/font.ttf); /* Путь к файлу со шрифтом */
+   }
+
+
+
+a {
+     display: inline-block;
+     transition: .3s;
+     text-decoration:none;
+        }
+        
+a:hover {
+    -webkit-transform: scale(0.8);
+     transform: scale(0.8);
+}
+
+body {
+     height: 100%;
+     margin: 0;
+     overflow: auto;
+}
+
+.baclground {
+	 width: 100%;
+     min-height: 100%;
+     object-fit: cover;
+     margin: 0 auto;
+     display: block;
+}
+
+.background-div {
+     max-height: 100%; 
+     display: flex;
+     position: fixed;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     overflow: hidden;
+}
+
+p {
+    font-family: font;
+}
+
+a {
+    font-family: font;
+}
+
+.centered {
+	position: relative;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.centered-children {
+	padding: 20px;
+	border-radius: 10px;
+	max-height: 100%;
+	display: block;
+	background: rgba(235,235,255,1);
+}
+
+.h2 {
+	display: block;
+	font-size: 1.5em;
+	margin-block-start: 0.83em;
+	margin-block-end: 0.83em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+}
+
+.active {
+    background-color: #ffffff;
+    color: black;
+}
