@@ -21,9 +21,10 @@ body {
      height: 100%;
      margin: 0;
      overflow: auto;
+
 }
 
-.baclground {
+.background {
 	 width: 100%;
      min-height: 100%;
      object-fit: cover;
@@ -83,3 +84,13 @@ a {
     color: black;
 }
 
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #182b47;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
